@@ -1,0 +1,54 @@
+# --- OS-specific files ---
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+
+# --- Shell history and local runtime artifacts ---
+
+# Bash
+.bash_history
+.bash_sessions/
+.bash_eternal_history
+
+# Zsh
+.zsh_history
+.zcompdump*
+.zsh_sessions/
+
+# Generic shell/editor swap/temp
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# --- Common editor/IDE files ---
+.idea/
+.vscode/
+*.code-workspace
+
+# --- Environment and local config ---
+.env
+.env.*
+!.env.example
+
+# --- Logs ---
+*.log
+
+# --- Dependency directories (if used for tooling) ---
+node_modules/
